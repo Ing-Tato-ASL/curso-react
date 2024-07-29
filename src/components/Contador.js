@@ -2,6 +2,7 @@ import React, {Fragment, useState} from 'react'
 
 const Contador = () => {
     const [numero, setNumero] = useState(0);
+    
     const aumentar = () => {
         setNumero(numero + 1);
         console.log('me diste un click');
