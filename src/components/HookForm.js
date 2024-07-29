@@ -9,8 +9,9 @@ const HookForm = () => {
         handleSubmit
     } = useForm();
 
-    const onSubmit = (data) => {
+    const onSubmit = (data, e) => {
         console.log(data);
+        e.target.reset();
     };
 
     return (
