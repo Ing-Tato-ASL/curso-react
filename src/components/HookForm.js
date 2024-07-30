@@ -3,11 +3,11 @@ import {useForm} from 'react-hook-form'
 import { ErrorMessage } from "@hookform/error-message"
 
 const HookForm = () => {
-    const {
-        register,
-        formState: {errors},
-        handleSubmit
-    } = useForm();
+        const {
+            register,
+            formState: {errors},
+            handleSubmit
+        } = useForm();
 
     const onSubmit = (data, e) => {
         console.log(data);
